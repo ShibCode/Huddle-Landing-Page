@@ -25,11 +25,17 @@
   }
   .footer-heading,
   .footer-para-right {
-    text-align: center;
+    text-align: start;
     width: 530px;
   }
 }
 @media screen and (max-width: 1080px) {
+  body {
+    gap: 60px;
+  }
+  .exc-div {
+    height: 550px;
+  }
   .firstheading {
     font-size: 44px;
     width: 80%;
@@ -73,13 +79,16 @@
   .img-text {
     flex-direction: column;
     justify-content: center;
-    height: 825px;
+    height: 750px;
   }
   .inner-img-text {
     flex-direction: column-reverse;
     justify-content: center;
     gap: 50px;
-    height: 625px;
+    height: 550px;
+  }
+  .exc-div {
+    height: 615px;
   }
   .bg1 {
     background: url(./huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-1.svg)
@@ -217,7 +226,7 @@
     font-size: 13px;
   }
   body {
-    gap: 50px;
+    gap: 40px;
   }
   .button {
     width: 210px;
@@ -233,7 +242,7 @@
   }
   main {
     gap: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
   .img-text-text {
     width: 95%;
@@ -260,7 +269,7 @@
     height: 515px;
   }
   .exc-div {
-    height: 540px;
+    height: 428px;
   }
   footer {
     height: 850px;
